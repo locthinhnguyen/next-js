@@ -1,6 +1,8 @@
 import HomeScreen from '@/modules/home/HomeScreen';
-import Image from 'next/image';
+import React from 'react';
 
-export default function Home() {
+const page = () => {
   return <HomeScreen />;
-}
+};
+
+export default page;
